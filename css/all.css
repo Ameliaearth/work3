@@ -273,10 +273,13 @@ h3{
 }
 
 /*RWD*/
-@media (max-width:768px){
-    body{
-        max-width:767px;
+@media (max-width:992px){
+    .wrap{
+        max-width:992px;
     }
-    
+    .f-pic>img{
+        width: 384px;
+        height: 296px;
+    }
     
 }
