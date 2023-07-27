@@ -75,6 +75,8 @@ body{
     text-indent: 25em;
     overflow:hidden;
     white-space: nowrap;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .jcsb{
     display: flex;
@@ -238,14 +240,13 @@ h3{
     margin: 0 32px;
 }
 .material-symbols-outlined {
-    font-size: 100%;
     color:#fff;
     text-decoration:none;
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 48
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 500,
+  'GRAD' 200,
+  'opsz' 48,
 }
 .aic{
     display: flex;
@@ -269,4 +270,13 @@ h3{
 }
 .list5>li>a>img:hover{
     transform: scale(1.1);
+}
+
+/*RWD*/
+@media (max-width:768px){
+    body{
+        max-width:767px;
+    }
+    
+    
 }
