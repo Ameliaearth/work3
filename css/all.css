@@ -106,7 +106,6 @@ body{
     font-size: 32px;
     color:#000;
     text-decoration: none;
-
 }
 .list1>li{
     border: 1px solid #DCDCDC;
@@ -240,21 +239,23 @@ h3{
     margin: 0 32px;
 }
 .material-symbols-outlined {
-    color:#fff;
-    text-decoration:none;
   font-variation-settings:
   'FILL' 0,
-  'wght' 500,
-  'GRAD' 200,
-  'opsz' 48,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }
-.aic{
-    display: flex;
-    align-items: center;
+.aside>a>span{
+    font-size: 36px;
+}
+.mr-22{
+    margin-right: 22px;
 }
 .fs-36{
     font-size: 36px;
-    margin-left: 16px;
+}
+.pb-6{
+    padding-bottom: -6px;
 }
 .bd2{
     border-bottom: 1px solid #fff;
@@ -277,9 +278,6 @@ h3{
     .wrap{
         max-width:992px;
     }
-    .f-pic>img{
-        width: 384px;
-        height: 296px;
-    }
+    
     
 }
