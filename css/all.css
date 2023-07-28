@@ -125,7 +125,7 @@ body{
     padding: 0 119px;
 }
 .f-pic>img{
-    max-width: 960px;
+    max-width: 925px;
     height: 296px;
 }
 .f-pic{
@@ -254,9 +254,6 @@ h3{
 .fs-36{
     font-size: 36px;
 }
-.pb-6{
-    padding-bottom: -6px;
-}
 .bd2{
     border-bottom: 1px solid #fff;
     padding:0 648px;
@@ -274,10 +271,16 @@ h3{
 }
 
 /*RWD*/
-@media (max-width:992px){
-    .wrap{
-        max-width:992px;
+@media screen and (max-width:992px) {
+    .container{
+        max-width:720px;
+        margin:0 auto;
     }
-    
-    
+    .p-all{
+        padding: 16px 48px 16px 49px;
+    }
+    .pic-wrap{
+        width: 336px;
+        height: 224px;
+    }
 }
